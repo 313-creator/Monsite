@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <!-- "C:\Users\hp\Downloads\COURS DE DEVELOPPEMENT WEB - DEBUTANT\EXERCICE CODAGE HTML\Monsite.css"-->
+    <link rel="stylesheet" href="Monsite.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#interets">Centres d'intérêt</a></li>
+                <li><a href="#sport">Activités sportives</a></li>
+                <li><a href="#competences">Compétences et projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil">
+        <h1>Bienvenue sur mon Portfolio</h1>
+        <p>Présentation générale.</p>
+    </section>
+
+    <section id="apropos">
+        <h2>À propos</h2>
+        <p>Mon parcours, mes objectifs.</p>
+    </section>
+
+    <section id="interets">
+        <h2>Centres d'intérêt</h2>
+        <p>Mes passions et hobbies.</p>
+    </section>
+
+    <section id="sport">
+        <h2>Activités sportives</h2>
+        <p>Mes activités sportives et leur impact.</p>
+    </section>
+
+    <section id="competences">
+        <h2>Compétences et projets</h2>
+        <p>Liste de mes compétences et projets réalisés.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mon Portfolio</p>
+    </footer>
+
+<!-- "C:\Users\hp\Downloads\COURS DE DEVELOPPEMENT WEB - DEBUTANT\EXERCICE CODAGE HTML\Monsite.js" -->
+    <script src="Monsite.js"></script>
+
+</body>
+</html>
