@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Portfolio</title>
-    <!-- "C:\Users\hp\Downloads\COURS DE DEVELOPPEMENT WEB - DEBUTANT\EXERCICE CODAGE HTML\Monsite.css"-->
     <link rel="stylesheet" href="Monsite.css">
 </head>
 <body>
@@ -12,39 +11,41 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#accueil" class="active">Accueil</a></li>
                 <li><a href="#apropos">À propos</a></li>
                 <li><a href="#interets">Centres d'intérêt</a></li>
-                <li><a href="#sport">Activités sportives</a></li>
                 <li><a href="#competences">Compétences et projets</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+        <h1 class="nom">Pape Mor LO</h1>
     </header>
 
     <section id="accueil">
         <h1>Bienvenue sur mon Portfolio</h1>
-        <p>Présentation générale.</p>
+        <p>Jeune journaliste, rédacteur web, community manager, spécialiste SEO et gestionnaire de communication basé à Dakar, Sénégal. Passionné par la lecture, l'écriture et les nouvelles technologies, je m'efforce de concilier créativité et stratégie pour produire un contenu impactant et optimisé.</p>
     </section>
 
     <section id="apropos">
         <h2>À propos</h2>
-        <p>Mon parcours, mes objectifs.</p>
+        <img src="C:\Users\hp\Downloads\COURS DE DEVELOPPEMENT WEB - DEBUTANT\EXERCICE CODAGE HTML\Projet PML\photo_2024-08-10_23-14-32.jpg" alt="Ma photo" class="photo">
+        <p>Mon nom est Pape Mor LO. Je suis un jeune journaliste/communicant et expert SEO. Toujours en quête de savoir et d'expérience, je me forme continuellement pour améliorer mes compétences et relever les défis du digital. Mon objectif est de monétiser efficacement mes compétences en ligne tout en partageant mes connaissances avec une communauté grandissante.</p>
     </section>
+    
 
     <section id="interets">
         <h2>Centres d'intérêt</h2>
-        <p>Mes passions et hobbies.</p>
-    </section>
-
-    <section id="sport">
-        <h2>Activités sportives</h2>
-        <p>Mes activités sportives et leur impact.</p>
+        <p>Je suis passionné par tout ce qui touche à la lecture, l'écriture et l'informatique. Ces domaines nourrissent ma curiosité et m'offrent une opportunité constante d'apprendre et de me perfectionner.</p>
     </section>
 
     <section id="competences">
         <h2>Compétences et projets</h2>
-        <p>Liste de mes compétences et projets réalisés.</p>
+        <p>Voici mes compétences et projets récents...</p>
+    
+        <!-- Bouton pour télécharger le CV -->
+        <a href="C:\Users\hp\Downloads\COURS DE DEVELOPPEMENT WEB - DEBUTANT\EXERCICE CODAGE HTML\Projet PML\CV DE PAPE MOR LO.pdf" download>
+            <button class="download-btn">Télécharger mon CV</button>
+        </a>
     </section>
 
     <section id="contact">
@@ -60,6 +61,9 @@
             <textarea id="message" name="message" required></textarea>
 
             <button type="submit">Envoyer</button>
+
+            <!-- Feedback message -->
+            <div id="feedback"></div>
         </form>
     </section>
 
@@ -67,7 +71,7 @@
         <p>&copy; 2025 Mon Portfolio</p>
     </footer>
 
-<!-- "C:\Users\hp\Downloads\COURS DE DEVELOPPEMENT WEB - DEBUTANT\EXERCICE CODAGE HTML\Monsite.js" -->
+    <!-- "C:\Users\hp\Downloads\COURS DE DEVELOPPEMENT WEB - DEBUTANT\EXERCICE CODAGE HTML\Projet PML\Monsite.js" -->
     <script src="Monsite.js"></script>
 
 </body>
